@@ -96,7 +96,7 @@
     width: 900px;
     min-height: 144px;
     margin: 20px auto;
-    z-index: 50;
+
     /*    background-color: #aaccff;*/
 }
 
@@ -141,7 +141,7 @@
     background-color: white;
     width: 510px;
     height: 245px;
-        box-shadow: 0px -2px 8px #888888;
+        box-shadow:6px -5px 8px #888888;
 }
 #bofangqi img{
 	width: 250px;
@@ -253,7 +253,7 @@
     text-align: center;
     line-height: 40px;
     padding-bottom: 1px;
-    margin-top: 56px;
+    margin-top: 2px;
 }
 
 #hezuo #xukezheng {
@@ -300,4 +300,89 @@
 #audio{
 	overflow: hidden;
 	width: 260px;
+}
+#geshou{
+    font-size: 34px;
+    margin-left: 28px;
+}
+#zhuanji{
+    top: 30px;
+    left: -87px;
+    position: relative;
+}
+#geming{
+    top: 107px;
+    left: 279px;
+    position: absolute;
+    color: #6bbd7a;
+}
+#jindu_div{
+    width: 200px;
+    margin-left: 276px;
+    margin-top: 42px;
+}
+#jindu{
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+}
+#shijian{
+    margin-left: 444px;
+    margin-top: 6px;
+}
+#dongzuo{
+    margin-left: 312px;
+    margin-top: 37px;
+}
+#dongzuo img{
+    width: 60px;
+    height: 28px;
+}
+#jixu{
+    width: 260px;
+    height: 245px;
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    line-height: 243px;
+    text-align: center;
+    display: none;
+    z-index: 50;
+}
+#start{
+    position: absolute;
+    line-height: 238px;
+    margin-left: -27px;
+    z-index: 50;
+}
+#jindu_{
+
+    height: 3px;
+    background-color: #6bbd7a;
+}
+#sound{
+    margin-left: 479px;
+    margin-top: -20px;
+    position: relative;
+    left: -3px;
+    transition:left 1s;
+    height: 22px;
+}
+#yinliang_div{
+    width: 65px;
+    position: relative;
+    top: -20px;
+    left: 23px;
+    height: 22px;
+}
+#yinliang{
+    height: 3px;
+    background-color: #333;
+    visibility: hidden;
+    width:0%;
+    transition:width 1s;
+    position: relative;
+    top: 9px;
+
 }
